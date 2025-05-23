@@ -17,7 +17,7 @@
   <!-- menu navbar -->
   <header class="header">
     <div class="nav_logo">
-      <img src="./assets/logo-light.svg" alt="Logo Alarado">
+      <img id="logo" src="./assets/logo_light.svg" alt="Logo Alarado">
     </div>
 
     <nav class="navbar">
@@ -35,22 +35,22 @@
             <a href="#contact" class="nav_link">Contact</a>
           </li>
           <li class="nav_item">
-            <button class="toggle_mobile" id="darkModeBtn">
-              on/off
-            </button>
+             <div class="toggle_container">
+              <input type="checkbox" id="theme_toggle">
+              <label for="theme_toggle" class="toggle_label">
+                <img id="moon_icon" src="./assets/moon_dark.svg" alt="Moon" class="icon moon">
+                <img id="sun_icon" src="./assets/sun_dark.svg" alt="Sun" class="icon sun">
+                <div class="toggle_ball"></div>
+              </label>
+            </div>
           </li>
         </ul>
       </nav>
  
       <div class="burger">
-        <img src="./assets/hamburger-button.svg" alt="Menu button">
+        <img src="./assets/hamburger_button.svg" alt="Menu button">
       </div>
 
-      <div class="toggle_btn">
-        <button class="toggle" id="darkModeBtn">
-          on/off
-        </button>
-      </div>
   </header>
 
 </body>
