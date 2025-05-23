@@ -11,7 +11,12 @@
 /* font */
 @font-face {
   font-family: 'Poppins';
-  src: url(./font/Poppins/Poppins-Black.ttf);
+  src: url(./font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url(./font/Poppins/Poppins-ExtraBold.ttf);
 }
 
 /* Box sizing rules */
@@ -47,12 +52,12 @@ html, body {
 /* Set core body defaults */
 body {
   background-color: var(--White);
-  color: var(--Black);
+  color: var(--Dark-Gray);
   font-family: 'Poppins';
   text-rendering: optimizeSpeed;
-  padding-top: 1rem;
-  padding-left: clamp(0.3rem, -0.24rem + 2.7vw, 3rem);
-  padding-right: clamp(0.3rem, -0.24rem + 2.7vw, 3rem);
+  padding-top: clamp(1rem, 0.8rem + 1vw, 2rem);
+  padding-left: clamp(0.3rem, -0.84rem + 5.7vw, 6rem);
+  padding-right: clamp(0.3rem, -0.84rem + 5.7vw, 6rem);
 }
 
 /* Inherit fonts for inputs and buttons */
